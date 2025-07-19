@@ -102,8 +102,9 @@ http:<minikube-ip>:30001
 ##In case firewall or security rules redirect the above url, check your service running at
 ```sh
 minikube start streamlit-ml-app or <name-of-service>
+```
+##Clean up  
 
-##Clean up
 ```sh
 minikube stop
 ```
